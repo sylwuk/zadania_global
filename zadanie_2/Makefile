@@ -13,4 +13,4 @@ $(TARGET): $(OBJS)
 .PHONY: clean
 
 clean:
-	rm -f *.o reader
+	rm -f *.o $(TARGET)
